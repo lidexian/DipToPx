@@ -27,8 +27,8 @@ public class AppDetailUpgradeTask extends AsyncTask<Void, Void, Boolean> {
 
 	protected void onPreExecute() {
 		if (msharedPre.getBoolean(Constants.KEY_COPY_DETAIL_WEB, false)) {
-//			Intent intent = new Intent(mActivity, UpgradeService.class);
-//			mActivity.startService(intent);
+			Intent intent = new Intent(mActivity, UpgradeService.class);
+			mActivity.startService(intent);
 		}
 	}
 
