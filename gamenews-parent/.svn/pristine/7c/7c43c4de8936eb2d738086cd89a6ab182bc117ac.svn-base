@@ -1,3 +1,0 @@
--keep interface com.yy.udbsdk.** {*;}
--keep class com.yy.udbsdk.** {*;}
--keep enum com.yy.udbsdk.** {*;}
