@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- actionbar -->
+    <color name="actionbar_text">#ffffff</color>
+    <color name="actionbar_bg">#e85d40</color>
+
+    <!-- 首页 -->
+    <color name="main_menu_bg">@color/global_bg_dark</color>
+    <color name="main_menu_text">#e85d40</color>
+    <color name="main_menu_bg_pressed">#333333</color>
+    <color name="main_menu_bg_normal">@color/global_bg_dark</color>
+    <color name="main_user_img_border">#fcf9f7</color>
+    <color name="main_menu_text_pressed">#e85d40</color>
+    <color name="main_menu_text_normal">#cfbaa6</color>
+    <color name="main_list_item_active_bg">#fff4dd</color>
+    <color name="main_list_item_bingo_bg">#f5fff1</color>
+    <color name="main_list_bingo_text_color">#38a614</color>
+    <!-- 我的最爱 -->
+    <color name="news_head_bg">@color/global_bg_dark</color>
+    <color name="news_title_text_selected">#e85d40</color>
+    <color name="news_title_text_normal">#b3a08f</color>
+    <color name="news_title_bg_pressed">#333333</color>
+    <color name="news_title_bg_normal">@color/global_bg_dark</color>
+    <!-- 通用 -->
+    <color name="global_bg_light">#fcf9f7</color>
+    <color name="global_bg_dark">#ff2c2828</color>
+    <color name="global_black">#ff000000</color>
+    <color name="global_gray">#ffb9b9b9</color>
+    <color name="global_white">#ffffffff</color>
+    <color name="global_transparent">#44ffffff</color>
+    <color name="global_label_color">#ffb3a08f</color>
+    <color name="global_text_color">#ff444444</color>
+    <color name="global_text_hint_color">#ff777777</color>
+    <color name="global_text_info_color">#ff999999</color>
+    <color name="global_img_border">#e85d40</color>
+    <color name="global_list_bg">#fcf9f7</color>
+    <color name="global_list_item_bg">#fcf9f7</color>
+    <color name="global_list_item_pressed">#f8dad2</color>
+    <color name="global_lv_primary_text_dark">#aaaaaa</color>
+    <color name="global_lv_primary_text">#53413d</color>
+    <color name="global_lv_secondary_text">#b3a4a4</color>
+    <!-- 个人中心 -->
+    <color name="my_favor_text_color">#fff76858</color>
+    <color name="my_favor_text_color_dark">#ff9c3e2a</color>
+    <color name="my_image_border_color">#fff76858</color>
+    <color name="my_favor_user_name">#ffb3a08f</color>
+    <color name="my_setting_secondary_text">#ff685c52</color>
+    <color name="my_setting_primary_text">#ffb3a08f</color>
+    <color name="my_setting_logout">#ffe85d40</color>
+
+    <!-- 频道仓库 -->
+    <color name="channel_depot_tips">#b3a4a4</color>
+    <color name="channel_depot_lable">#e85d40</color>
+    <color name="channel_name">#2c2828</color>
+    <!-- 详情页 -->
+    <color name="article_detail_comment_primary_text">#544c4c</color>
+    <color name="article_detail_comment_divider">#e4d4d1</color>
+    <color name="article_comment_info">#b3a4a4</color>
+    <color name="article_detail_actionbar_color">#ffa693</color>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/channel_more_lable"
+        style="@style/channeleDepotLable"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <com.yy.android.gamenews.ui.view.ExpandableHeightGridView
+        android:id="@+id/gridview"
+        style="@style/channelDepotMarginWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="@dimen/column_item_width"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="10dp" />
+
+    <TextView
+        android:id="@+id/another"
+        style="@style/globalMarginWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="18.66dp"
+        android:background="@drawable/channel_depot_another_selector"
+        android:gravity="center"
+        android:paddingBottom="10.66dp"
+        android:paddingTop="10.66dp"
+        android:text="@string/channel_more_action"
+        android:textColor="@color/global_white"
+        android:textSize="18sp"
+        android:visibility="invisible" >
+    </TextView>
+
+</LinearLayout>
